@@ -26,5 +26,5 @@ echo "All given name are  : $name1, $name2 , $name3"
 read -p 'VIP name: ' name4 #print name in the same line
 echo "user name is $name4"
 
-read -sp 'Enter password: ' password
+read -sp 'Enter password: ' password    # -sp is used for invisiability of alphabet at terminal
 echo "Password for all user is $password"
